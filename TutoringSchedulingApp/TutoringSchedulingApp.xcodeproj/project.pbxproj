@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		8906BF622E68D51500F39C32 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8906BF612E68D50900F39C32 /* .gitignore */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		8906BF452E68D38800F39C32 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -31,7 +27,6 @@
 		8906BF362E68D38600F39C32 /* TutoringSchedulingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutoringSchedulingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8906BF442E68D38800F39C32 /* TutoringSchedulingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutoringSchedulingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8906BF4E2E68D38800F39C32 /* TutoringSchedulingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TutoringSchedulingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8906BF612E68D50900F39C32 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -80,7 +75,6 @@
 		8906BF2D2E68D38600F39C32 = {
 			isa = PBXGroup;
 			children = (
-				8906BF612E68D50900F39C32 /* .gitignore */,
 				8906BF382E68D38600F39C32 /* TutoringSchedulingApp */,
 				8906BF472E68D38800F39C32 /* TutoringSchedulingAppTests */,
 				8906BF512E68D38800F39C32 /* TutoringSchedulingAppUITests */,
@@ -218,7 +212,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8906BF622E68D51500F39C32 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

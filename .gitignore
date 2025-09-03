@@ -12,6 +12,20 @@ xcuserdata/
 **/xcschemes/xcschememanagement.plist
 
 # --- Build artifacts ---
+# --- macOS junk ---
+.DS_Store
+
+# --- Xcode user/ephemeral files ---
+xcuserdata/
+*.xcuserstate
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Ignore per-user scheme management plist, keep shared schemes
+**/xcschemes/xcschememanagement.plist
+
+# --- Build artifacts ---
 DerivedData/
 build/
 Build/
@@ -22,17 +36,15 @@ Build/
 # --- Swift Package Manager ---
 .build/
 .swiftpm/
-# Keep dependency lockfile (recommended)
-!Package.resolved
+!Package.resolved   # Keep lockfile committed
 
-# --- CocoaPods (only if you add Pods later) ---
+# --- CocoaPods (if added later) ---
 Pods/
-# (Keep Podfile & Podfile.lock committed)
 
-# --- Carthage (only if you add it later) ---
+# --- Carthage (if added later) ---
 Carthage/Build/
 
-# --- Fastlane (if you add it later) ---
+# --- Fastlane (if added later) ---
 fastlane/report.xml
 fastlane/screenshots
 fastlane/test_output
